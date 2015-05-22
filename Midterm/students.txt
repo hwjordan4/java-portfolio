@@ -1,0 +1,14 @@
+Jane Doe, 365487645, 56, 2.87
+John Smith, 765432987, 87, 3.12
+Bubba Dawg, 666666666, 167, 0.01
+Barbara Brilliant, 999999999, 102, 3.99
+John Smith, 888888888, 22, 3.71
+Jane Doe, 555555555, 48, 3.34
+Billy Bob Hogg, 000000000, 108, 0.1
+Barbie Doll, 345654321, 99, 2.3
+Ken Doll, 111111111, 67, 0.2
+Bill Gates, 222222222, 105, 2.03
+Madonna, 777777777, 3, 1.4
+Paul Politician, 000000001, 236, 0.0
+John Smith, 444444444, 42, 2.89
+
