@@ -1,5 +1,7 @@
+/*****************************************
+ *  @author Harrison Jordan
+ ****************************************/
 /*
- * Harrison Jordan
  * CS3401
  * Section 02
  * Prof. Gayler
