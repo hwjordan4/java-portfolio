@@ -1,4 +1,8 @@
 package com.example.androidbettercalculator;
+/*****************************************
+ *  @author Harrison Jordan
+ ****************************************/
+
 /*
  * Course: CS2302
  * Section: 01

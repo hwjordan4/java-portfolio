@@ -1,3 +1,6 @@
+/**
+ * @author Liang
+ */
 import java.util.ArrayList;
 
 public class Heap<E extends Comparable<E>> {

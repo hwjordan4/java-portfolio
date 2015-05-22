@@ -1,3 +1,6 @@
+/**
+ * @author Liang
+ */
 public abstract class AbstractTree<E> implements Tree<E> {
   @Override /** In-order traversal from the root*/
   public void inorder() {

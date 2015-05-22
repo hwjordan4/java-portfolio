@@ -1,3 +1,6 @@
+/**
+ * @author Multiple Authors
+ */
 /*
  * Harrison Jordan
  * CS3401
@@ -281,11 +284,13 @@ public class BST<E extends Comparable<E>>
   /**print the nodes in the tree in the order that they are visited with a breadth first traversal
    */
   
-  @SuppressWarnings("rawtypes")
+  /*****************************************
+   *  @author Harrison Jordan
+   ****************************************/
 public void breadthFirstTraversal ()
   {
 	  
-	  @SuppressWarnings("unchecked")
+	  
 	  Queue<TreeNode<E>> bFT = new ConcurrentLinkedQueue();
 	  TreeNode<E> current = getRoot();
 	  if(current == null)return;
@@ -300,7 +305,11 @@ public void breadthFirstTraversal ()
 	  } 
 	  
   }
-  
+
+/*****************************************
+ *  @author Harrison Jordan
+ ****************************************/  
+
   /** return the height of the tree*/
   public int height()
   {
@@ -315,6 +324,9 @@ public void breadthFirstTraversal ()
 	  
 	  return count;
   }
+  /*****************************************
+   *  @author Harrison Jordan
+   ****************************************/
   
   public int getHeight(TreeNode<E> a){
 	  if(a==null)
@@ -326,7 +338,9 @@ public void breadthFirstTraversal ()
 	  else
 		  return 1;
   }
-  
+  /*****************************************
+   *  @author Harrison Jordan
+   ****************************************/
   /**return the number of nodes in the tree which are not leaves*/
   public int getNumberOfNonLeaves()
   {
@@ -339,6 +353,10 @@ public void breadthFirstTraversal ()
 	 
 	  return count;
   }
+  /*****************************************
+   *  @author Harrison Jordan
+   ****************************************/
+  
   public int findLeaf(TreeNode<E> e){
 	  if(e==null)
 		  return 0;

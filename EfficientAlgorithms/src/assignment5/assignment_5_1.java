@@ -1,5 +1,7 @@
 package assignment5;
-
+/*****************************************
+ *  @author Harrison Jordan
+ ****************************************/
 /*
  * Harrison Jordan
  * CS3401

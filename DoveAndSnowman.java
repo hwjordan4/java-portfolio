@@ -1,4 +1,9 @@
 package Lab07;
+/**
+*  @author Multiple
+*/
+
+
 //*******************************************************************
 // Animation of a dove flying around a snowman.
 //*******************************************************************
@@ -57,6 +62,9 @@ public class DoveAndSnowman extends JPanel implements ActionListener{
         timer = new Timer(DELAY, this);
         timer.start();
     }
+/*****************************************
+ *  @author Harrison Jordan
+ ****************************************/
 
     /** Draw the scene */
     public void paintComponent (Graphics page) {
@@ -98,6 +106,9 @@ public class DoveAndSnowman extends JPanel implements ActionListener{
         page.fillRect(XMID-20, YTOP-25, 40, 30);        // top of hat
     }
     
+	/*****************************************
+ 	*  @author Harrison Jordan
+ 	****************************************/
     //Action listener that performs animation of wings
     public void actionPerformed (ActionEvent e){
     		++imageIndex;
@@ -112,6 +123,9 @@ public class DoveAndSnowman extends JPanel implements ActionListener{
     		repaint();
     }
     
+	/*****************************************
+ 	*  @author Harrison Jordan
+ 	****************************************/
     //Key listener to change direction of dove
     private class DirectionListener extends KeyAdapter {
         public void keyPressed(KeyEvent e) {

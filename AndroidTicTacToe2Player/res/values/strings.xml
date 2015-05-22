@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TwoPlayerTicTacToe</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcometext">Welcome To Tic Tac Toe!</string>
+    <string name="yourusernametext">Your Username:</string>
+    <string name="otherusernametext">Other Player\'s Username:</string>
+    <string name="usernamereqtext">Your username is required!</string>
+    <string name="othernamereqtext">The other player\'s username is required!</string>
+    <string name="establishing">Establishing Communications&#8230;</string>
+    <string name="established">Communications Established</string>
+    <string name="oktext">OK</string>
+    <string name="canceltext">Cancel</string>
+    <string name="yourself">You\'re Playing Against Yourself</string>
+    <string name="yourturn">Your Turn</string>
+    <string name="yourx">You\'re X - You Go First</string>
+    <string name="youro">You\'re O (Waiting for X to Move)</string>
+    <string name="xturntext">X\'s Turn</string>
+    <string name="oturntext">O\'s Turn</string>
+    <string name="xwinstext">X Wins!</string>
+    <string name="owinstext">O Wins!</string>
+    <string name="adrawtext">It\'s a Draw!</string>
+
+</resources>

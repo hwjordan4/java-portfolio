@@ -1,3 +1,8 @@
+/**
+ * Modification of EvaluateExpression
+ * @author Liang
+ *
+ */
 /* Harrison Jordan
  * CS 3401
  * Section 02

@@ -42,7 +42,9 @@ public class CheetahActivity extends Activity {
 		private int delay = 40;
 		
 		
-		
+		/*****************************************
+ 		*  @author Harrison Jordan
+ 		****************************************/
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

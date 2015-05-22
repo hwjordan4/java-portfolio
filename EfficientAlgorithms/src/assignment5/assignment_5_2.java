@@ -1,4 +1,10 @@
 package assignment5;
+/**
+ * 
+ * @author Multiple
+ *
+ */
+
 /*
  * Harrison Jordan
  * CS3401
@@ -14,6 +20,10 @@ public class assignment_5_2 {
  * from the index 40 to index 45 using the algorithms in Listings 22.3 and 22.4 in the text.  
  * Display the results in a table.
  */
+	
+	/*****************************************
+	 *  @author Harrison Jordan
+	 ****************************************/
 	public static void main(String[] args) 
 	{
 		

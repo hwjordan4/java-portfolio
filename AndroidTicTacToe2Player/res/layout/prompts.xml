@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="10dp" >
+ 
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yourusernametext"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+    <EditText
+        android:id="@+id/editTextDialogUserName"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <requestFocus />
+    </EditText>
+ 
+    <TextView
+        android:id="@+id/textViewOtherUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otherusernametext"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+    <EditText
+        android:id="@+id/editTextDialogOtherUserName"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@android:drawable/btn_default"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="10.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="1.0dip"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/okButton"
+            android:layout_width="0.0dip" android:layout_height="fill_parent"
+            android:text="@string/oktext"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="0.0dip" android:layout_height="fill_parent"
+            android:text="@string/canceltext"
+            android:layout_weight="1.0" />
+
+    </LinearLayout>
+</LinearLayout>

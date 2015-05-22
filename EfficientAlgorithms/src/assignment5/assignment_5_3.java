@@ -1,5 +1,7 @@
 package assignment5;
-
+/*****************************************
+ *  @author Harrison Jordan
+ ****************************************/
 import java.util.Random;
 
 /*

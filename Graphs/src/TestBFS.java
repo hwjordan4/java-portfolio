@@ -1,3 +1,7 @@
+/*************************************
+*   @author Harrison Jordan
+*************************************/
+
 public class TestBFS {
   public static void main(String[] args) {
     String[] vertices = {"Seattle", "San Francisco", "Los Angeles",

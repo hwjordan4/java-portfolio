@@ -1,3 +1,6 @@
+/**
+ * @author Liang
+ */
 public class BubbleSort {
   /** Bubble sort method */
   public static void bubbleSort(int[] list) {

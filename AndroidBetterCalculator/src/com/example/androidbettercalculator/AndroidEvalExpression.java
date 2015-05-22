@@ -1,4 +1,9 @@
 package com.example.androidbettercalculator;
+/**
+* @author Unknown
+*/
+
+
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;

@@ -1,4 +1,6 @@
-
+/*****************************************
+ *  @author Harrison Jordan
+ ****************************************/
 public class quiz3 {
 
 	public static void main(String[] args) {

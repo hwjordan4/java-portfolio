@@ -1,3 +1,7 @@
+/**
+ * @author Multiple
+ */
+
 /*
  * Harrison Jordan
  * CS3401
@@ -91,6 +95,9 @@ public abstract class AbstractGraph<V> implements Graph<V> {
     
     return result;
   }
+  /*****************************************
+   *  @author Harrison Jordan
+   ****************************************/
   public List<Integer> getPath (int u, int v){
 	  List<Integer> path = new ArrayList<Integer>();
 	  List<Integer> reversePath = new ArrayList<Integer>();
@@ -113,7 +120,9 @@ public abstract class AbstractGraph<V> implements Graph<V> {
 		  return null;
 	  }
   }
-  
+  /*****************************************
+   *  @author Harrison Jordan
+   ****************************************/
   	public List<Integer> getACycle()
 	{
 		Queue<Integer> q = new LinkedList<Integer>(); 
@@ -164,7 +173,9 @@ public abstract class AbstractGraph<V> implements Graph<V> {
 			return null;
 	}
   
-  
+  	/*****************************************
+  	 *  @author Harrison Jordan
+  	 ****************************************/
   /** Returns true if the graph is one connected component, false if not */
   public boolean isConnected(){
 	  boolean connected = false;

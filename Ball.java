@@ -1,5 +1,9 @@
 package Lab08;
 /**
+* @ author Unknown
+*/
+
+/**
  * The Ball Class - 
  * An animated ball object
  */

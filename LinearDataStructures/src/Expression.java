@@ -1,3 +1,9 @@
+/**
+ * Modification of EvaluateExpression
+ * @author Liang
+ *
+ */
+
 /* Harrison Jordan
  * CS 3401
  * Section 02
@@ -6,11 +12,7 @@
  * Assignment 3-3
  */
 import java.util.Stack;
-/**
- * Modification of EvaluateExpression
- * @author Liang
- *
- */
+
 public class Expression {
 
 	public static void main(String[] args) {

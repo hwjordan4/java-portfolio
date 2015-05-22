@@ -1,5 +1,10 @@
 package Homework2;
 
+/*****************************************
+ *  @author Harrison Jordan
+ ****************************************/
+
+
 //*******************************************************************
 //Demonstrates using standard actionPerformed() method for
 // the Timer handler.

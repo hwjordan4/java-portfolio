@@ -1,3 +1,8 @@
+/**
+ * 
+ * @author Liang
+ *
+ */
 public class QuickSort {
   public static void quickSort(int[] list) {
     quickSort(list, 0, list.length - 1);

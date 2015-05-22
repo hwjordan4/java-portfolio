@@ -1,4 +1,7 @@
 package Lab08;
+/*****************************************
+ *  @author Harrison Jordan
+ ****************************************/
 /**
  * The Pong Class 
  */
@@ -64,6 +67,7 @@ public class TwoPlayerPong extends JPanel implements ActionListener {
       timer.start();                     // start the timer
    }
 
+
    /**  Handler for the timer */
    public void actionPerformed (ActionEvent evt) {
       ball.moveRebound(0, 0, WIDTH, HEIGHT);   // keeps the ball in the screen
@@ -86,6 +90,7 @@ public class TwoPlayerPong extends JPanel implements ActionListener {
      
       repaint();
    }
+
    
    /**  Draws the scene */
    public void paintComponent (Graphics page) {

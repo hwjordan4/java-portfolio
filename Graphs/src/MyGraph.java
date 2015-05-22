@@ -1,3 +1,7 @@
+/*************************************
+*   @author Harrison Jordan
+*************************************/
+
 /*
  * Harrison Jordan
  * CS3401
@@ -41,6 +45,7 @@ public class MyGraph<V> extends UnweightedGraph<V>{
 	   * @param the vertices must be integers
 	   * @return a list of connected components of a graph
 	   */
+	
 	public List<List<Integer>> getConnectedComponents(){
 		List<List<Integer>> connectedComps = new ArrayList<List<Integer>>();
 		List<Integer> vertices = (List<Integer>) getVertices();
